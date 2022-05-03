@@ -96,5 +96,20 @@ namespace Caderninho
         {
 
         }
+
+        private void btbd2_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btprogmob2_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btsis2_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -66,5 +66,35 @@ namespace Caderninho
         {
 
         }
+
+        private void btlogica_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btprogmob2_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btinproweb3_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btbd_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btbd_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btsis_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

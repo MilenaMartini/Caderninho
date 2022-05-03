@@ -32,15 +32,17 @@
                 <Button Text="história" Grid.Row="3" x:Name="bthist2" Grid.Column="0" Clicked="bthist2_Clicked"/>
                 <Button Text="geografia" Grid.Row="4" x:Name="btgeo2" Grid.Column="0" Clicked="btgeo2_Clicked"/>
                 <Button Text="química" Grid.Row="5" x:Name="btiqui2" Grid.Column="0" Clicked="btiqui2_Clicked"/>
+                
                 <Button Text="física" Grid.Row="6" x:Name="btfis2" Grid.Column="0" Clicked="btfis2_Clicked"/>
                 <Button Text="filosofia" Grid.Row="0" x:Name="btfilo2" Grid.Column="1" Clicked="btfilo2_Clicked"/>
-                <Button Text="sociologia" Grid.Row="1" x:Name="btisoci1" Grid.Column="1" Clicked="btisoci1_Clicked"/>
-                <Button Text="etica em cidadania" Grid.Row="2" x:Name="btcid" Grid.Column="1" Clicked="btcid_Clicked"/>
+                <Button Text="sociologia" Grid.Row="1" x:Name="btisoci2" Grid.Column="1" Clicked="btisoci1_Clicked"/>
+                <Button Text="etica em cidadania" Grid.Row="2" x:Name="btcid2" Grid.Column="1" Clicked="btcid_Clicked"/>
                 <Button Text="ed-física" Grid.Row="3" x:Name="bted2" Grid.Column="1" Clicked="bted2_Clicked"/>
-                <Button Text="programação mobile" Grid.Row="4" x:Name="btprogmob1" Grid.Column="1" Clicked="btprogmob1_Clicked"/>
+              
+                <Button Text="programação mobile" Grid.Row="4" x:Name="btprogmob2" Grid.Column="1" Clicked="btprogmob2_Clicked"/>
                 <Button Text="programação-web2" Grid.Row="5" x:Name="btinproweb2" Grid.Column="1" Clicked="btinproweb2_Clicked"/>
-                <Button Text="banco de dados" Grid.Row="6" x:Name="btbd" Grid.Column="1" Clicked="btbd_Clicked"/>
-                <Button Text="sistemas embarcados" Grid.Row="7" x:Name="btsis" Grid.Column="1" Clicked="btsis_Clicked"/>
+                <Button Text="banco de dados" Grid.Row="6" x:Name="btbd2" Grid.Column="1" Clicked="btbd2_Clicked"/>
+                <Button Text="sistemas embarcados" Grid.Row="7" x:Name="btsis2" Grid.Column="1" Clicked="btsis2_Clicked"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

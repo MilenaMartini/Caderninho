@@ -91,5 +91,30 @@ namespace Caderninho
         {
 
         }
+
+        private void bt1_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bt1_Clicked_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btbio1_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btiart1_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btlogica1_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

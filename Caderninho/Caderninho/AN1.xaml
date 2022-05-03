@@ -4,7 +4,7 @@
              x:Class="Caderninho.AN1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="conteúdo do 1-ano"></Label>
+            <Label Text="conteúdo do 1-ano" HorizontalOptions="Center" FontSize="Title" TextColor="AliceBlue"/>
 
             <Grid>
                 <Grid.RowDefinitions>
@@ -15,6 +15,11 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+
 
                 </Grid.RowDefinitions>
 
@@ -31,16 +36,19 @@
                 <Button Text="inglês" Grid.Row="2" x:Name="bting1" Grid.Column="0" Clicked="bting1_Clicked" />
                 <Button Text="história" Grid.Row="3" x:Name="bthist1" Grid.Column="0" Clicked="bthist1_Clicked"/>
                 <Button Text="geografia" Grid.Row="4" x:Name="btgeo1" Grid.Column="0" Clicked="btgeo1_Clicked" />
-                <Button Text="química" Grid.Row="5" x:Name="btiqui1" Grid.Column="0" Clicked="btiqui1_Clicked"/>
-                <Button Text="física" Grid.Row="6" x:Name="btfis1" Grid.Column="0" Clicked="btfis1_Clicked"/>
+                <Button Text="química" Grid.Row="4" x:Name="btiqui1" Grid.Column="1" Clicked="btiqui1_Clicked"/>
+                <Button Text="física" Grid.Row="5" x:Name="btfis1" Grid.Column="0" Clicked="btfis1_Clicked"/>
                 <Button Text="filosofia" Grid.Row="0" x:Name="btfilo1" Grid.Column="1" Clicked="btfilo1_Clicked"/>
-                <Button Text="artes" Grid.Row="1" x:Name="btiart" Grid.Column="1" Clicked="btiart_Clicked" />
+                <Button Text="artes" Grid.Row="1" x:Name="btiart1" Grid.Column="1" Clicked="btiart1_Clicked"/>
                 <Button Text="ed-física" Grid.Row="2" x:Name="bted1" Grid.Column="1" Clicked="bted1_Clicked" />
+                <Button Text="biologia" Grid.Row="3" x:Name="btbio1" Grid.Column="1" Clicked="btbio1_Clicked" />
 
-                <Button Text="lógica" Grid.Row="3" x:Name="btlogica" Grid.Column="1" Clicked="btlogica_Clicked" />
-                <Button Text="programação-web1" Grid.Row="4" x:Name="btinproweb1" Grid.Column="1" Clicked="btinproweb1_Clicked" />
-                <Button Text="design" Grid.Row="5" x:Name="btdesi" Grid.Column="1" Clicked="btdesi_Clicked" />
-                <Button Text="fundamentos da web" Grid.Row="6" x:Name="btfund" Grid.Column="1" Clicked="btfund_Clicked"/>
+                <Button Text="lógica" Grid.Row="7" x:Name="btlogica1" Grid.Column="0" Clicked="btlogica1_Clicked"/>
+                <Button Text="programação-web1" Grid.Row="8" x:Name="btinproweb1" Grid.Column="0" Clicked="btinproweb1_Clicked" />
+                <Button Text="design" Grid.Row="8" x:Name="btdesi" Grid.Column="1" Clicked="btdesi_Clicked" />
+                <Button Text="fundamentos da web" Grid.Row="7" x:Name="btfund" Grid.Column="1" Clicked="btfund_Clicked"/>
+               <!-- <Button Text="banco de dados" Grid.Row="5" x:Name="btbd1" Grid.Column="1" Clicked="btdesi_Clicked" />
+                <Button Text="tecnicas de programação" Grid.Row="6" x:Name="btfund" Grid.Column="1" Clicked="btfund_Clicked"/>-->
             </Grid>
         </StackLayout>
     </ContentPage.Content>
