@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Caderninho.MainPage">
+
+    <StackLayout>
+        <Label Text="caderno virtual" HorizontalOptions="Center"></Label>
+        
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+
+            </Grid.ColumnDefinitions>
+
+
+            <Button Text="1-ano" Grid.Row="0" x:Name="bt1" Grid.Column="0" Clicked="bt1_Clicked"/>
+            <Button Text="2-ano" Grid.Row="0" x:Name="bt2" Grid.Column="1" Clicked="bt2_Clicked"/>
+            <Button Text="3-ano" Grid.Row="0" x:Name="bt3" Grid.Column="2" Clicked="bt3_Clicked"/>
+
+
+        </Grid>
+        
+        </StackLayout>
+
+</ContentPage>
