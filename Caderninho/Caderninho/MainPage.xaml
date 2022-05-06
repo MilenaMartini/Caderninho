@@ -4,14 +4,18 @@
              x:Class="Caderninho.MainPage">
 
     <StackLayout>
+        <!--colocando um titulo na página principal-->
         <Label Text="caderno virtual" HorizontalOptions="Center"></Label>
         
+        <!--criando uma gride para colocar os botões de separação dos anos-->
         <Grid>
+            <!--definindo as linhas da grid-->
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
+            <!--definindo as colunas da grid-->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
@@ -19,7 +23,7 @@
 
             </Grid.ColumnDefinitions>
 
-
+            <!--criando os botões para levar para a página deles colocando a localização e criando o evento clicked para conseguir clikar no botão-->
             <Button Text="1-ano" Grid.Row="0" x:Name="bt1" Grid.Column="0" Clicked="bt1_Clicked"/>
             <Button Text="2-ano" Grid.Row="0" x:Name="bt2" Grid.Column="1" Clicked="bt2_Clicked"/>
             <Button Text="3-ano" Grid.Row="0" x:Name="bt3" Grid.Column="2" Clicked="bt3_Clicked"/>

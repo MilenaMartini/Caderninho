@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Caderninho.mt1ano;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,8 +18,18 @@ namespace Caderninho
             InitializeComponent();
         }
 
-        private void btport1_Clicked(object sender, EventArgs e)
+        private async void btport1_Clicked(object sender, EventArgs e)
         {
+           // try
+            //{
+               // await Navigation.PushAsync(new port());
+
+           // }
+           // catch (Exception ex)
+           // {
+                //criando uma menssagem de erro
+               // await DisplayAlert("deu erro", ex.Message, "ok :/");
+           // }
 
         }
 
@@ -113,6 +124,16 @@ namespace Caderninho
         }
 
         private void btlogica1_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tec_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btbd1_Clicked(object sender, EventArgs e)
         {
 
         }

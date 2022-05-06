@@ -47,8 +47,8 @@
                 <Button Text="programação-web1" Grid.Row="8" x:Name="btinproweb1" Grid.Column="0" Clicked="btinproweb1_Clicked" />
                 <Button Text="design" Grid.Row="8" x:Name="btdesi" Grid.Column="1" Clicked="btdesi_Clicked" />
                 <Button Text="fundamentos da web" Grid.Row="7" x:Name="btfund" Grid.Column="1" Clicked="btfund_Clicked"/>
-               <!-- <Button Text="banco de dados" Grid.Row="5" x:Name="btbd1" Grid.Column="1" Clicked="btdesi_Clicked" />
-                <Button Text="tecnicas de programação" Grid.Row="6" x:Name="btfund" Grid.Column="1" Clicked="btfund_Clicked"/>-->
+                <Button Text="banco de dados" HeightRequest="100"  Grid.Row="9" x:Name="btbd1" Grid.Column="1" Clicked="btbd1_Clicked"/>
+                <Button Text="tecnicas de programação" Grid.Row="9" x:Name="tec" Grid.Column="0" Clicked="tec_Clicked"/>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

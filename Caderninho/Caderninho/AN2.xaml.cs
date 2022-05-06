@@ -111,5 +111,15 @@ namespace Caderninho
         {
 
         }
+
+        private void btbio2_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btds2_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
