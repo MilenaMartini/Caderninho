@@ -4,7 +4,7 @@
              x:Class="Caderninho.AN2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="2-ano"></Label>
+            <Label Text="conteúdo do 2-ano" HorizontalOptions="Center" FontSize="Title" TextColor="Black"/>
 
             <Grid>
                 <Grid.RowDefinitions>

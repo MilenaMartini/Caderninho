@@ -4,9 +4,12 @@
              x:Class="Caderninho.mt1ano.fundweb1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="
+Fundamentos da Informatica" HorizontalOptions="Center" FontSize="Title" TextColor="Black"/>
+
+            <Label Text="Aprendendo Fundamentos da Informatica"
+                HorizontalOptions="CenterAndExpand"
+                Margin="10"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
