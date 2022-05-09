@@ -17,108 +17,279 @@ namespace Caderninho
             InitializeComponent();
         }
 
-        private void btprogmob1_Clicked(object sender, EventArgs e)
+       
+
+        private async void btport2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.port2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btport2_Clicked(object sender, EventArgs e)
+        private async void btmat2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.mat2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btmat2_Clicked(object sender, EventArgs e)
+        private async void bting2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.ing2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void bting2_Clicked(object sender, EventArgs e)
+        private async void bthist2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.hist2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void bthist2_Clicked(object sender, EventArgs e)
+        private async void btgeo2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.geo2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btgeo2_Clicked(object sender, EventArgs e)
+        private async void btiqui2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.qui2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btiqui2_Clicked(object sender, EventArgs e)
+        private async void btfis2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.fis2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btfis2_Clicked(object sender, EventArgs e)
+        private async void btfilo2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.filo2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btfilo2_Clicked(object sender, EventArgs e)
+        private async void btisoci1_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.soci2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btisoci1_Clicked(object sender, EventArgs e)
+        
+        private async void btcid_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.cid2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btisoci1_Clicked_1(object sender, EventArgs e)
+        private async void bted2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.edfis2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btcid_Clicked(object sender, EventArgs e)
+        private async void btinproweb2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.proweb2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void bted2_Clicked(object sender, EventArgs e)
+       
+
+        private async void btsis_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.sisemb2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btinproweb2_Clicked(object sender, EventArgs e)
+        private async void btbd2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.bd2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
+
 
         }
 
-        private void btbd_Clicked(object sender, EventArgs e)
+        private async void btprogmob2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.promo2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btsis_Clicked(object sender, EventArgs e)
+        private async void btsis2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.sisemb2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btbd2_Clicked(object sender, EventArgs e)
+        private async void btbio2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.bio2());
+
+            }
+            catch (Exception ex)
+            {
+
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
 
-        private void btprogmob2_Clicked(object sender, EventArgs e)
+        private async void btds2_Clicked(object sender, EventArgs e)
         {
+            try
+            {
+                await Navigation.PushAsync(new mt2ano.ds2());
 
-        }
+            }
+            catch (Exception ex)
+            {
 
-        private void btsis2_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btbio2_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btds2_Clicked(object sender, EventArgs e)
-        {
+                await DisplayAlert("deu erro", ex.Message, "ok :/");
+            }
 
         }
     }
