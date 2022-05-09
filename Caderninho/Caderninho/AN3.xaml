@@ -44,9 +44,9 @@
 
                 <Button Text="programação mobile2" Grid.Row="8" HeightRequest="100" x:Name="btprogmob3" Grid.Column="1" Clicked="btprogmob3_Clicked"/>
                 <Button Text="programação-web3" Grid.Row="7" x:Name="btinproweb3" Grid.Column="0" Clicked="btinproweb3_Clicked"/>
-                <Button Text="analise e teste de software" Grid.Row="8" x:Name="btanalise" Grid.Column="0" Clicked="btbd_Clicked"/>
-                <Button Text="internet e protocolos de rede" Grid.Row="9" x:Name="btrede" Grid.Column="0" Clicked="btbd_Clicked_1"/>
-                <Button Text="tcc" Grid.Row="7" x:Name="bttcc" Grid.Column="1" Clicked="btsis_Clicked"/>
+                <Button Text="analise e teste de software" Grid.Row="8" x:Name="btanalise" Grid.Column="0" Clicked="btanalise_Clicked"/>
+                <Button Text="internet e protocolos de rede" Grid.Row="9" x:Name="btrede" Grid.Column="0" Clicked="btrede_Clicked"/>
+                <Button Text="tcc" Grid.Row="7" x:Name="bttcc" Grid.Column="1" Clicked="bttcc_Clicked"/>
 
             </Grid>
         </StackLayout>
