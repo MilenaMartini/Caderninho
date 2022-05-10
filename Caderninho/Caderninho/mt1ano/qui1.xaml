@@ -4,9 +4,11 @@
              x:Class="Caderninho.mt1ano.qui1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Química" HorizontalOptions="Center" FontSize="Title" TextColor="Black"/>
+
+            <Label Text="Química Geral, Físico-Química, Química Nuclear e Química Orgânica."
+                HorizontalOptions="CenterAndExpand"
+                Margin="10"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

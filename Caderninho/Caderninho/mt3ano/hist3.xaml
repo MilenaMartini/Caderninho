@@ -4,9 +4,11 @@
              x:Class="Caderninho.mt3ano.hist3">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="História" HorizontalOptions="Center" FontSize="Title" TextColor="Black"/>
+
+            <Label Text="Primeira e Segunda Guerra Mundial, Crise de 29 e o Nazifacismo, Totalitarismos, O golpe militar e o fim do regime democrático, Guerra Fria."
+                HorizontalOptions="CenterAndExpand"
+                Margin="10"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

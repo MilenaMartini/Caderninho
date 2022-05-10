@@ -4,9 +4,11 @@
              x:Class="Caderninho.mt2ano.filo2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Filosofia" HorizontalOptions="Center" FontSize="Title" TextColor="Black"/>
+
+            <Label Text="Estudar a essência da humanidade e a realidade em que vivemos, além de reflexões sobre filósofos e pensadores."
+                HorizontalOptions="CenterAndExpand"
+                Margin="10"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

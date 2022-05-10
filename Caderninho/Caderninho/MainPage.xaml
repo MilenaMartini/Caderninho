@@ -5,7 +5,7 @@
 
     <StackLayout>
         <!--colocando um titulo na página principal-->
-        <Label Text="caderno virtual" HorizontalOptions="Center"></Label>
+        <Label Text="caderno virtual" HorizontalOptions="Center" FontSize="Title" TextColor="Black"></Label>
         
         <!--criando uma gride para colocar os botões de separação dos anos-->
         <Grid>

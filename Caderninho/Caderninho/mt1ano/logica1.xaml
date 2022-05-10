@@ -4,9 +4,11 @@
              x:Class="Caderninho.mt1ano.logica1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Lógica" HorizontalOptions="Center" FontSize="Title" TextColor="Black"/>
+
+            <Label Text="Aprendendo a lógica para a criação de aplicativos."
+                HorizontalOptions="CenterAndExpand"
+                Margin="10"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

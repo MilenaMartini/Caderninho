@@ -4,9 +4,11 @@
              x:Class="Caderninho.mt2ano.edfis2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Ed. Física" HorizontalOptions="Center" FontSize="Title" TextColor="Black"/>
+
+            <Label Text="Quadra."
+                HorizontalOptions="CenterAndExpand"
+                Margin="10"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
